@@ -8,6 +8,10 @@ end
 
 Prelaunchr::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = { :address => "localhost", :port => 5432 }
+  
+  # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
@@ -16,6 +20,8 @@ Prelaunchr::Application.configure do
 
   # Log error messages when you accidentally call methods on nil.
   config.whiny_nils = true
+  
+  config.eager_load = false
 
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
