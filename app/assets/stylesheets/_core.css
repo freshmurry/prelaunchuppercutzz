@@ -275,7 +275,10 @@ html.home{
 	margin: 0 auto;
 }
 
-#refer .header p{
+#refer .header h1{
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
 	float: left;
 	color: #FFF;
 	font-weight: 500;
@@ -285,6 +288,9 @@ html.home{
 
 #refer .header .byline{
 	font-size: 14px;
+	font-family: sans-serif;
+	padding-top: 20px;
+	text-align: center;
 }
 
 #refer .header .logo{
@@ -293,7 +299,7 @@ html.home{
 	line-height: 0;
 	margin-right: 14px;
 	letter-spacing: 1px;
-	background: url(/assets/refer/logo.png) 0 0 no-repeat;
+	/*background: url(/assets/refer/logo.png) 0 0 no-repeat;*/
 	background-size: 106px 19px;
 	height: 19px;
 	width: 106px;
@@ -301,6 +307,7 @@ html.home{
 }
 
 #refer .hero{
+	padding-bottom: 30px;
 	background: #F1F0EE;
 	height: 391px;
 	overflow: hidden;
@@ -309,24 +316,27 @@ html.home{
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/refer/Hair.jpg) no-repeat;
+  	background-position: center top;
 	background-size: 610px 394px;
 	overflow: hidden;
 	margin-top: 15px;
+	margin-right: 10px;
 	float: left;
 }
 
 #refer .mammoth .need{
 	color: #FFF;
-	font-size: 38px;
+	font-size: 32px;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin: 102px 0 0 72px;
-	display: block;
-	line-height: 56px;
+	margin: 90px 0 0 50px;
+	display: inline-table;
+	line-height: 45px;
 	letter-spacing: 4px;
-	text-align: center;
+	/*text-align: center;*/
 	width: 284px;
+	float: right;
 }
 
 #refer .share-wrap{
@@ -336,6 +346,13 @@ html.home{
 	text-transform: uppercase;
 	letter-spacing: .13em;
 	margin-right: 60px;
+}
+
+#refer .share-wrap .byline{
+	padding-top: 20px;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-align: center;
 }
 
 #refer .share-wrap .why{
@@ -366,7 +383,7 @@ html.home{
 	border: 1px solid #D1D0C7;
 	background: #FFF;
 	padding: 10px 0;
-	width: 320px;
+	width: 520px;
 	text-transform: none;
 	font-size: 11px;
 	margin: 20px auto 0;
@@ -640,8 +657,9 @@ only screen and (min-device-pixel-ratio: 2) {
 		background-size: 46px 19px;
 	}
 
-	#refer .header .logo{
-		background: url(/assets/refer/logo@2x.png) 0 0 no-repeat;
+	#refer .header .logo h2{
+		/*background: url(/assets/refer/logo@2x.png) 0 0 no-repeat;*/
+		font-style: bold;
 		background-size: 106px 19px;
 	}
 
