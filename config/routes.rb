@@ -6,14 +6,14 @@ Prelaunchr::Application.routes.draw do
 
   root :to => "users#new"
 
-  match 'users/create' => 'users#create'
+  post 'users/create' => 'users#create'
 
-  match 'refer-a-friend' => 'users#refer'
+  get 'refer-a-friend' => 'users#refer'
 
-  match 'privacy-policy' => 'users#policy'
+  get 'privacy-policy' => 'users#policy'
 
   unless Rails.application.config.consider_all_requests_local
-      match '*not_found', to: 'users#redirect', :format => false
+      get '*not_found', to: 'users#redirect', :format => false
   end
   # The priority is based upon order of creation:
   # first created -> highest priority.

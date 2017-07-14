@@ -4,18 +4,21 @@ ruby '2.3.0'
 
 gem 'activeadmin', '1.0.0.pre2'
 gem 'delayed_job_active_record', '~> 4.0.3'
-gem 'devise'
+gem 'devise', '~> 3.2'
 gem 'pg'
 gem 'rails', '4.2.5.2'
 gem 'unicorn'
-
+gem 'mailcatcher', '0.6.5'
 
 # Gems used only for assets and not required
 # in production environments by default.
+
 group :assets do
   gem 'coffee-rails', '~> 4.1.0'
   gem 'sass-rails',   '~> 5.0.1'
   gem 'uglifier'
+  gem 'jquery-rails'
+  gem 'sprockets', '~> 3.0'
 end
 
 group :development, :test do

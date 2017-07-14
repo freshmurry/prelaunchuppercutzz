@@ -1,4 +1,4 @@
-$(document).ready(function(){
+(document).ready(function(){
 	var myVideo = document.getElementById('video');
 	console.log(myVideo);
 	if(myVideo){

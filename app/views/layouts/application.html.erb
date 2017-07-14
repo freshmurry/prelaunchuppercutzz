@@ -5,10 +5,12 @@
 <!--[if IE 9 ]>    <html class="ie9 <%= @bodyId %>"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="<%= @bodyId %>"> <!--<![endif]-->
 <head>
-        <title>Uppercutzz &ndash; Tell Friends, Style services for Free</title>
+        <title>Uppercutzz Tell Friends, Style services for Free</title>
         <link rel="icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
         <link rel="shortcut icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
 
+        <meta name="author" content="Lawrence Murry">
+        <meta name="description" content="Making beauty appointments is evolving. Didn’t want to leave you all behind. Check out Uppercutzz here."/>
         <meta property="og:title" content="Uppercutzz is coming soon!"/>
         <meta property="og:description" content="Making beauty appointments is evolving. Didn’t want to leave you all behind. Check out Uppercutzz here."/>
         <meta property="og:image" content="<%= asset_path("refer/truman.png") %>"/>
@@ -20,7 +22,7 @@
                 <meta name="viewport" content="width=1120" />
             <% end %>
         <% end %>
-        <%= stylesheet_link_tag "core.css", :media => "all" %>
+        <%= stylesheet_link_tag "application", :media => "all" %>
         <%= csrf_meta_tags %>
 </head>
 <body id="<%= @bodyId %>">
