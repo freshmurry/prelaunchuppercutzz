@@ -30,8 +30,11 @@ form{
 
 /* Home */
 
-html.home{
+.home{
+	/*background: #fff;*/
 	background: #EDECEA;
+	background: url(/assets/home/kh.jpg) center fixed no-repeat;
+	background-size: cover;
 }
 
 #home{
@@ -44,10 +47,9 @@ html.home{
 }
 
 #home .hero{
-	width: 100%;
+	padding-left: 550px;
 	height: 446px;
-	background: url(/assets/home/white.png) center center no-repeat;
-	background-size: 1600px 446px;
+	margin-top: 0;
 	overflow: hidden;
 	position: relative;
 	letter-spacing: .09em;
@@ -67,7 +69,7 @@ html.home{
 
 #home .hero .small{
 	font-weight: bold;
-	color: #955F5D;
+	color: #AAA;
 	font-size: 18px;
 	margin: 10px 0 0 115px;
 	line-height: 30px;
@@ -89,7 +91,7 @@ html.home{
 	width: 46px;
 	height: 19px;
 	margin: 0 auto;
-	background: url(/assets/home/key.png) 0 0 no-repeat;
+	background: url(/assets/home/key.svg) 0 0 no-repeat;
 	background-size: 46px 19px;
 }
 
@@ -648,17 +650,17 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-		background: url(/assets/home/hero@2x.jpg) center center no-repeat;
+		background: url(/assets/home/white.png) center center no-repeat;
 		background-size: 1600px 446px;
 	}
 
 	#home .form-wrap .key{
-		background: url(/assets/home/key@2x.png) 0 0 no-repeat;
+		background: url(/assets/home/key.svg) 0 0 no-repeat;
 		background-size: 46px 19px;
 	}
 
 	#refer .header .logo h2{
-		/*background: url(/assets/refer/logo@2x.png) 0 0 no-repeat;*/
+		background: url(/assets/home/key.svg) 0 0 no-repeat;
 		font-style: bold;
 		background-size: 106px 19px;
 	}
