@@ -33,7 +33,7 @@ form{
 .home{
 	/*background: #fff;*/
 	background: #EDECEA;
-	background: url(/assets/home/kh.jpg) center fixed no-repeat;
+	background: url(/assets/home/lady2.jpg) center fixed no-repeat;
 	background-size: cover;
 }
 
@@ -77,7 +77,7 @@ form{
 	z-index: 2;
 	text-transform: uppercase;
 	text-align: center;
-	width: 375px;
+	width: 100%;
 	letter-spacing: 1px;
 }
 
@@ -650,8 +650,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-		background: url(/assets/home/white.png) center center no-repeat;
-		background-size: 1600px 446px;
+		background: url(/assets/home/lady2.png) center center no-repeat;
 	}
 
 	#home .form-wrap .key{

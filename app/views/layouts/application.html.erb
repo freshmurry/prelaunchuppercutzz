@@ -1,36 +1,35 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie6 <%= @bodyId %>"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie7 <%= @bodyId %>"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8 <%= @bodyId %>"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie9 <%= @bodyId %>"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html class="<%= @bodyId %>"> <!--<![endif]-->
-<head>
-        <title>Uppercutzz Tell Friends, Style services for Free</title>
-        <link rel="icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
-        <link rel="shortcut icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="assets/css/bootstrap.css" rel="stylesheet">
-        <meta name="author" content="Lawrence Murry">
-        <meta name="description" content="Making beauty appointments is evolving. Didn’t want to leave you all behind. Check out Uppercutzz here."/>
-        <meta property="og:title" content="Uppercutzz is coming soon!"/>
-        <meta property="og:description" content="Making beauty appointments is evolving. Didn’t want to leave you all behind. Check out Uppercutzz here."/>
-        <meta property="og:image" content="<%= asset_path("refer/truman.png") %>"/>
-        <meta property="og:url" content="<%= root_url %>"/>
+  <!--[if lt IE 7 ]> <html class="ie6 <%= @bodyId %>"> <![endif]-->
+  <!--[if IE 7 ]>    <html class="ie7 <%= @bodyId %>"> <![endif]-->
+  <!--[if IE 8 ]>    <html class="ie8 <%= @bodyId %>"> <![endif]-->
+  <!--[if IE 9 ]>    <html class="ie9 <%= @bodyId %>"> <![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!--> <html class="<%= @bodyId %>"> <!--<![endif]-->
+  <head>
+      <title>Uppercutzz Tell Friends, Style services for Free</title>
+      <link rel="icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
+      <link rel="shortcut icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
+          
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="assets/css/bootstrap.css" rel="stylesheet">
+      <meta name="author" content="Lawrence Murry">
+      <meta name="description" content="Making beauty appointments is evolving. Didn’t want to leave you all behind. Check out Uppercutzz here."/>
+      <meta property="og:title" content="Uppercutzz is coming soon!"/>
+      <meta property="og:description" content="Making beauty appointments is evolving. Didn’t want to leave you all behind. Check out Uppercutzz here."/>
+      <meta property="og:image" content="<%= asset_path("home/kh.jpg") %>"/>
+      <meta property="og:url" content="<%= root_url %>"/>
         <% if @is_mobile %>
-            <% if @bodyId == 'home' %>
-                <meta name="viewport" content="width=1600" />
-            <% else %>
-                <meta name="viewport" content="width=1120" />
-            <% end %>
-        <% end %>
+          <% if @bodyId == 'home' %>
+            <meta name="viewport" content="width=1" />
+              <% else %>
+                <meta name="viewport" content="width=1" />
+              <% end %>
+          <% end %>
         <%= stylesheet_link_tag "application", :media => "all" %>
-        <%= csrf_meta_tags %>
-</head>
-<body id="<%= @bodyId %>">
-
-<%= yield %>
-
-
-</body>
+      <%= csrf_meta_tags %>
+  </head>
+  <body id="<%= @bodyId %>">
+  
+  <%= yield %>
+  
+  </body>
 </html>
