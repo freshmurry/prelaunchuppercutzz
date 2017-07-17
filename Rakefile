@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Prelaunchr::Application.load_tasks
+Prelaunchuppercutzz::Application.load_tasks
