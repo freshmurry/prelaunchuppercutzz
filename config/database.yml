@@ -1,7 +1,8 @@
 development:
-  adapter: postgresql
+  adapter: sqlite3
   database: prelaunchr_development
   host: localhost
+
 test:
   adapter: postgresql
   database: prelaunchr_test
