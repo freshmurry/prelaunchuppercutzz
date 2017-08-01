@@ -5,7 +5,6 @@ ruby '2.3.0'
 gem 'activeadmin', '1.0.0.pre2'
 gem 'delayed_job_active_record', '~> 4.0.3'
 gem 'devise', '~> 3.2'
-gem 'pg'
 gem 'rails', '4.2.5.2'
 gem 'unicorn'
 gem 'mailcatcher', '0.6.5'
@@ -45,4 +44,5 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'rails_serve_static_assets'
+  gem 'pg'
 end
