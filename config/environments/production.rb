@@ -7,11 +7,8 @@ Prelaunchr::Application.configure do
   # Full error reports are disabled and caching is turned on
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
-  
-  config.eager_load = true
 
-  # Disable Rails's static asset server (Apache or nginx will already do this)
-  config.serve_static_assets = false
+  config.eager_load = true
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
