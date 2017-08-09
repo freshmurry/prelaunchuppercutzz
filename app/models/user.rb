@@ -18,29 +18,29 @@ class User < ActiveRecord::Base
       'count' => 5,
       'html' => 'Eyebrows',
       'class' => 'two',
-      # 'image' => ActionController::Base.helpers.asset_path(
-        # 'refer/cream-tooltip@2x.png')
+      'image' => ActionController::Base.helpers.asset_path(
+        'refer/eebrows.png')
     },
     {
       'count' => 10,
       'html' => 'Makeup',
       'class' => 'three',
-      # 'image' => ActionController::Base.helpers.asset_path(
-        # 'refer/truman@2x.png')
+      'image' => ActionController::Base.helpers.asset_path(
+        'refer/makeup.png')
     },
     {
       'count' => 25,
       'html' => 'Lashes',
       'class' => 'four',
-      # 'image' => ActionController::Base.helpers.asset_path(
-        # 'refer/winston@2x.png')
+      'image' => ActionController::Base.helpers.asset_path(
+        'refer/lashes.png')
     },
     {
       'count' => 50,
       'html' => '<b>Pamper Me</b><br>(1) Free Eyebrows, Makeup, Lashes, and Hairstyle service',
       'class' => 'five',
-      # 'image' => ActionController::Base.helpers.asset_path(
-        # 'refer/blade-explain@2x.png')
+      'image' => ActionController::Base.helpers.asset_path(
+        'refer/pamperme.jpg')
     }
   ]
   
