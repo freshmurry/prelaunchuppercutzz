@@ -6,9 +6,8 @@ gem 'activeadmin', '1.0.0.pre2'
 gem 'delayed_job_active_record', '~> 4.0.3'
 gem 'devise', '~> 3.2'
 gem 'rails', '4.2.5.2'
+gem 'sqlite3', '~> 1.3.13'
 gem 'unicorn'
-gem 'sqlite3'
-
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -28,19 +27,16 @@ group :development, :test do
 end
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
-# Use unicorn as the app server
-# gem 'unicorn'
-
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
 
 group :production do
   gem 'rails_12factor'
   gem 'rails_serve_static_assets'
-  gem 'pg'
+  gem 'pg', '0.20'
 end

@@ -4,11 +4,11 @@ development:
   host: localhost
 
 test:
-  adapter: postgresql
-  database: prelaunchr
+  adapter: sqlite3
+  database: prelaunchr_test
   host: localhost
   
 production:
   adapter: postgresql
   database: prelaunchr
-  host: herokuapp
+  host: localhost
