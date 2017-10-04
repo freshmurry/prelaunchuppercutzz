@@ -6,6 +6,8 @@ Devise.setup do |config|
   # note that it will be overwritten if you use your own mailer class with default "from" parameter.
   config.mailer_sender = "customerexperience@uppercutzz.com"
 
+  config.secret_key = ENV["SECRET_KEY_BASE"]
+  
   # Configure the class responsible to send e-mails.
   # config.mailer = "Devise::Mailer"
 
@@ -238,4 +240,5 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = "/my_engine/users/auth"
   config.secret_key = 'e2f9303a4c4408ae971b3f416f3d788dbc7445a172524a1a8f07b6e0b4d591b10b9d69abbfc5278e7c7fb0ff7c773eee6e637c8e2fcd98ba8813bc2024964a96'
+
 end

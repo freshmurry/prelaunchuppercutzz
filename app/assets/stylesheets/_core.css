@@ -31,11 +31,11 @@ form{
 /* Home */
 
 .home{
-	/*background: #fff;*/
-	background: #EDECEA;
-	background: url(/assets/home/lady2.jpg) center fixed no-repeat;
+	background: #fff;
+	background: url(/assets/home/barber_1.jpg) center fixed no-repeat;
 	background-size: cover;
 }
+
 
 #home{
 	padding-bottom: 50px;
@@ -51,34 +51,38 @@ form{
 	height: 446px;
 	margin-top: 0;
 	overflow: hidden;
-	position: relative;
+	/*position: relative;*/
 	letter-spacing: .09em;
 	margin: 0 auto;
+	text-align: left;
+	border-collapse: collapse;
+  	border-spacing: 0;
 }
 
 #home .hero .large{
 	font-weight: bold;
 	font-size: 40px;
-	color: #074E6F;
+	color: #2C3E50;
 	text-transform: uppercase;
-	margin: 85px 0 0 136px;
+	margin-top: 85px;
 	position: relative;
 	z-index: 2;
 	letter-spacing: 2px;
 }
 
 #home .hero .small{
-	font-weight: bold;
-	color: #AAA;
+	font-weight: 1em;
+	color: #7F8C8D;
 	font-size: 18px;
 	margin: 10px 0 0 115px;
 	line-height: 30px;
 	position: relative;
 	z-index: 2;
 	text-transform: uppercase;
-	text-align: center;
+	text-align: left;
 	width: 100%;
 	letter-spacing: 1px;
+	text-align: left;
 }
 
 #home .form-wrap{
@@ -98,7 +102,7 @@ form{
 #home .form-wrap .byline{
 	font-size: 15px;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: #2C3E50;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -109,7 +113,7 @@ form{
 	float: left;
 	font-size: 13px;
 	padding: 8px 0 8px 10px;
-	border: 1px solid #074E6F;
+	border: 1px solid #2C3E50;
 	width: 256px;
 	outline: none;
 	letter-spacing: 1px;
@@ -117,7 +121,7 @@ form{
 
 #home .form-wrap .submit{
 	width: 143px;
-	background: #074E6F;
+	background: #2C3E50;
 	float: left;
 	height: 37px;
 	line-height: 37px;
@@ -301,7 +305,7 @@ form{
 	line-height: 0;
 	margin-right: 14px;
 	letter-spacing: 1px;
-	/*background: url(/assets/refer/logo.png) 0 0 no-repeat;*/
+	background: url(/assets/refer/logo.png) 0 0 no-repeat;
 	background-size: 106px 19px;
 	height: 19px;
 	width: 106px;
@@ -318,7 +322,7 @@ form{
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/refer/Hair.jpg) no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/refer/barber.jpg) center center fixed no-repeat;
   	background-position: center top;
 	background-size: 610px 394px;
 	overflow: hidden;
@@ -650,7 +654,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-		background: url(/assets/home/lady2.png) center center no-repeat;
+		background: url(/assets/home/barber_1.jpg) center center no-repeat;
 	}
 
 	#home .form-wrap .key{

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+   id="svg602"
+   sodipodi:version="0.34"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="380.28pt"
+   height="138.89pt"
+   xml:space="preserve"
+   sodipodi:docbase="/mnt/sda1/elementi_decorativi"
+   sodipodi:docname="/mnt/sda1/elementi_decorativi/simple_key.svg"><defs
+   id="defs604" /><sodipodi:namedview
+   id="base" /><g
+   id="g609"
+   transform="translate(-0.487328,-28.00043)"><rect
+   style="font-size:12;fill:#000000;fill-rule:evenodd;stroke-width:1;stroke:none;stroke-opacity:1;fill-opacity:1;"
+   id="rect605"
+   width="320.136078"
+   height="20.4342651"
+   x="10.2171135"
+   y="98.765152" /><rect
+   style="font-size:12;fill:#000000;fill-rule:evenodd;stroke-width:1;fill-opacity:1;"
+   id="rect606"
+   width="95.3596878"
+   height="20.4342651"
+   x="-196.061283"
+   y="10.187499"
+   transform="matrix(2.055589e-16,-1,1,1.823882e-17,0,0)" /><path
+   sodipodi:type="arc"
+   style="fill-rule:evenodd;stroke:#000000;fill:none;fill-opacity:1;stroke-opacity:1;stroke-width:18.506;stroke-linejoin:miter;stroke-linecap:butt;stroke-dasharray:none;"
+   id="path607"
+   d="M 599.4037 568.7524 A 100.4682 112.3882 0 1 0 398.4672 568.7524 A 100.4682 112.3882 0 1 0  599.4037 568.7524 z"
+   sodipodi:cx="498.935486"
+   sodipodi:cy="568.75238"
+   sodipodi:rx="100.468246"
+   sodipodi:ry="112.388184"
+   transform="matrix(0.67653,0,0,0.615027,60.62255,-237.9609)" /><rect
+   style="font-size:12;fill:#000000;fill-rule:evenodd;stroke-width:1;fill-opacity:1;"
+   id="rect608"
+   width="95.3596878"
+   height="20.4342651"
+   x="-196.061283"
+   y="53.0625166"
+   transform="matrix(2.055589e-16,-1,1,1.823882e-17,0,0)" /></g></svg>

@@ -16,28 +16,28 @@ class User < ActiveRecord::Base
   REFERRAL_STEPS = [
     {
       'count' => 5,
-      'html' => 'Eyebrows',
+      'html' => 'Shave',
       'class' => 'two',
       'image' => ActionController::Base.helpers.asset_path(
         'refer/eebrows.png')
     },
     {
       'count' => 10,
-      'html' => 'Makeup',
+      'html' => 'Razor Lining',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
         'refer/makeup.png')
     },
     {
       'count' => 25,
-      'html' => 'Lashes',
+      'html' => 'Hot Towel Treatment',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
         'refer/lashes.png')
     },
     {
       'count' => 50,
-      'html' => '<b>Pamper Me</b><br>(1) Free Eyebrows, Makeup, Lashes, and Hairstyle service',
+      'html' => '<b>(1)</b> Free Haircut, Razor Lining, Shave, Hot Towel Treatment',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
         'refer/pamperme.jpg')
