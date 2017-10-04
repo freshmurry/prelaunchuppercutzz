@@ -19,28 +19,28 @@ class User < ActiveRecord::Base
       'html' => 'Shave',
       'class' => 'two',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/eebrows.png')
+        'refer/shave.png')
     },
     {
       'count' => 10,
       'html' => 'Razor Lining',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/makeup.png')
+        'refer/barber_2.jpg')
     },
     {
       'count' => 25,
       'html' => 'Hot Towel Treatment',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/lashes.png')
+        'refer/hot_towl.jpg')
     },
     {
       'count' => 50,
       'html' => '<b>(1)</b> Free Haircut, Razor Lining, Shave, Hot Towel Treatment',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/pamperme.jpg')
+        'refer/barber_3.jpg')
     }
   ]
   
