@@ -23,14 +23,14 @@ class User < ActiveRecord::Base
     },
     {
       'count' => 10,
-      'html' => 'Razor Lining',
+      'html' => 'Clipper/Straight Razor Lining',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
         'refer/barber_2.jpg')
     },
     {
       'count' => 25,
-      'html' => 'Hot Towel Treatment',
+      'html' => 'Razor Lining & Hot Towel Treatment',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
         'refer/hot_towl.jpg')

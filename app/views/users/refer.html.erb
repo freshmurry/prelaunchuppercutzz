@@ -6,7 +6,7 @@
 
 <div class="hero">
     <div class="page-content clearfix">
-        <div class="mammoth">
+        <div class="barber">
             <span class="need brandon">Barbershop Appointment Booking is Coming</span>
         </div>
         <div class="share-wrap">
@@ -43,9 +43,9 @@
  %>
 <div class="prizes <% if found %>prize-<%= found["class"] %><% end %>">
     <div class="page-content">
-        <p class="callout brandon">Here's How It Works:</p>
+        <p class="callout brandon">Keep track of your sharing goals!</p>
         <ul class="products clearfix">
-            <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Uppercutzz Product</p></li>
+            <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Uppercutzz Services</p></li>
             <% stops.each do |stop| %>
                 <li class="product brandon <% if stop["selected"] %>selected<% end %> <% if stop["class"] == 'five' %>last<% end %>">
                     <div class="circle"><%= stop["count"] %></div>
