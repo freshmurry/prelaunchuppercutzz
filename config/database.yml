@@ -4,11 +4,11 @@ development:
   host: localhost
 
 test:
-  adapter: sqlite3
+  adapter: postgresql
   database: prelaunchr_test
   host: localhost
   
 production:
   adapter: postgresql
-  database: prelaunchr
+  database: prelaunchr_production
   host: localhost
