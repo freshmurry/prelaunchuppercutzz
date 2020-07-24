@@ -1,19 +1,20 @@
 source 'https://rubygems.org'
 
-ruby '2.3.0'
+ruby '2.4.2'
 
 gem 'activeadmin', '1.0.0.pre2'
 gem 'delayed_job_active_record', '~> 4.0.3'
 gem 'devise', '~> 3.2'
-gem 'rails', '4.2.5.2'
+gem 'rails', '~> 4.2.5'
 gem 'sqlite3', '1.3.13'
 gem 'unicorn'
+gem 'puma'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'coffee-rails', '~> 4.1.0'
-  gem 'sass-rails',   '~> 5.0.1'
+  gem 'coffee-rails'
+  gem 'sass-rails'
   gem 'uglifier'
   gem 'jquery-ui-rails', '~> 4.2.1'
 end
@@ -30,7 +31,7 @@ end
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
-# gem 'jbuilder'
+gem 'jbuilder'
 
 # Deploy with Capistrano
 gem 'capistrano'
