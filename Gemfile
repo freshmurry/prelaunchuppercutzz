@@ -4,7 +4,7 @@ ruby '2.4.2'
 
 gem 'activeadmin', '1.0.0.pre2'
 gem 'delayed_job_active_record', '~> 4.0.3'
-gem 'devise', '~> 3.2'
+gem 'devise', '~> 4.7'
 gem 'rails', '~> 4.2.5'
 gem 'sqlite3', '1.3.13'
 gem 'unicorn'
