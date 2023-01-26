@@ -16,7 +16,7 @@ group :assets do
   gem 'coffee-rails'
   gem 'sass-rails'
   gem 'uglifier'
-  gem 'jquery-ui-rails', '~> 4.2.1'
+  gem 'jquery-ui-rails', '~> 6.0.0'
 end
 
 group :development, :test do
